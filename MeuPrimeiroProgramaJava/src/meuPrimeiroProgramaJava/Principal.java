@@ -19,19 +19,24 @@ import java.util.Scanner;
 public class Principal { // Classe que cont√©m o m√©todo principal.
 	public static void main(String[] args) { // Este √© o m√©todo principal
 		
-		// Salda√ß√£o e pergunta o nome.
-		System.out.println("Ol√° amigo!\nQual √© o seu nome?");
+		// SaldaÁ„o e pergunta o nome.
+		System.out.println("Ol· amigo!\nQual È o seu nome?");
 		
 		// Ler o nome.
 		Scanner in = new Scanner(System.in);
 		String nome = in.nextLine();
 		
-		// Salda√ß√£o espec√≠fica para o nome lido
-		System.out.printf("Ol√° %s!", nome);
+		// SaldaÁ„o especÌfica para o nome lido
+		System.out.printf("Ol· %s!\n", nome);
 		in.close();
 		
-		//NOTA: Implementar leitura da idade e exibi-la
-
+		//Perguntar a Idade
+		System.out.printf("%s, qual È sua idade?", nome);
+		
+		// Ler idade.
+		Integer idade = in.nextInt();
+		
+		System.out.printf("%d! Puxa! Como vocÍ È jovem!", idade);	
 		
 	}
 
