@@ -26,7 +26,7 @@ public class Principal { // Classe que contém o método principal.
 		Scanner in = new Scanner(System.in);
 		String nome = in.nextLine();
 		
-		// Saldação específica para o nome lido.
+		// Saldação específica para o nome lido
 		System.out.printf("Olá %s!", nome);
 		in.close();
 
