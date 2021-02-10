@@ -29,6 +29,8 @@ public class Principal { // Classe que contém o método principal.
 		// Saldação específica para o nome lido
 		System.out.printf("Olá %s!", nome);
 		in.close();
+		
+		//NOTA: Implementar leitura da idade e exibi-la
 
 		
 	}
